@@ -33,6 +33,7 @@ Bu proje, benzer araçlardan birkaç önemli özellikle ayrılır:
 3.  **Keşif (Discover):**
     Bu adım, Canlı Alt Yazı penceresinin ve metin alanının teknik kimliklerini bulup `config.json` dosyasına kaydeder.
       * `Ctrl+Win+L` tuşlarına basarak Canlı Alt Yazıları açın.
+      * **Uyarı:** Bu script'i yalnızca **bir kez** çalıştırın. Eğer Canlı Alt Yazılar tam olarak aktif olmadan (yani bir video/ses kaynağı ile çalıştırılmadan ve ekranda 1-2 kelime yazıya dökülmeden önce) `discover.py`yi çalıştırırsanız, `config.json` dosyası yanlış formatta (`"caption_auto_id": "ReadyToCaptionTextBlock"`) oluşur ve `main.py` düzgün çalışmaz. Doğru format için (`"caption_auto_id": "CaptionsTextBlock"`), önce bir ses/video kaynağı (örneğin bir video oynatın) ile Canlı Alt Yazıları aktif hale getirin, ekranda kelimeler görünmeye başladıktan sonra `discover.py`yi çalıştırın.
       * Terminalden (Yönetici olarak) aşağıdaki komutu çalıştırın:
     <!-- end list -->
     ```bash
