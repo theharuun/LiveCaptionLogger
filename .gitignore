@@ -1,0 +1,6 @@
+# Python cache
+__pycache__/
+
+# Kullanıcı tarafından oluşturulan dosyalar
+*.txt
+config.json
