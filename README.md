@@ -1,6 +1,6 @@
 # Windows Live Caption Logger (UIA)
 
-Windows (11/10) "Canlı Alt Yazılar" (Live Captions) özelliğinden gelen metni OCR kullanmadan, doğrudan UIA (UI Automation) üzerinden yakalayıp bir `.txt` dosyasına kaydeden basit bir Python script'idir.
+Windows (11) "Canlı Alt Yazılar" (Live Captions) özelliğinden gelen metni OCR kullanmadan, doğrudan UIA (UI Automation) üzerinden yakalayıp bir `.txt` dosyasına kaydeden basit bir Python script'idir.
 
 ## Çözdüğü Problem
 
