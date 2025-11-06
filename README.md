@@ -18,7 +18,7 @@ Bu proje, benzer araçlardan birkaç önemli özellikle ayrılır:
 ## Gereksinimler
 
   * Python 3.x
-  * Windows 10/11
+  * Windows 11
   * `pywinauto` kütüphanesi
 
 ## Hızlı Başlangıç
